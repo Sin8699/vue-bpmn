@@ -1,0 +1,29 @@
+$toolbar-background-color: #fff;
+
+.toolbar {
+  z-index: 2;
+  height: $toolbar-height;
+  cursor: auto;
+  width: 100%;
+  background: $toolbar-background-color;
+
+  > button {
+    cursor: pointer;
+  }
+}
+
+.toolbar-item {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  line-height: 21px;
+}
+
+.text-black {
+  color: #000000 !important;
+}
+
+.cursor-default {
+  cursor: default !important;
+}
